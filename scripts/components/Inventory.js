@@ -72,8 +72,6 @@ class Inventory extends React.Component {
 
     storeRef.on('value', (snapshot)=> {
       var data = snapshot.val() || {};
-      console.log("see below");
-      console.log(data);
 
       // claim it as our own if there is no owner already
       if(!data.owner) {
