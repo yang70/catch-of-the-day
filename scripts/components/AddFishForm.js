@@ -4,7 +4,9 @@
 */
 
 import React from 'react';
+import autobind from 'autobind-decorator';
 
+@autobind
 class AddFishForm extends React.Component {
   createFish(event) {
 
